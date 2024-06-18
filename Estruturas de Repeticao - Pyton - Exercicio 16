@@ -1,0 +1,11 @@
+# 16 - Faça um programa que leia um numero inteiro positivo impar 'N' e imprima todos os numeros impares
+# de 1 ate 'N' em ordem decrescente.
+
+num = int(input("Informe um numero inteiro positivo impar: "))
+
+if num < 0 or num % 2 == 0:
+    print("Numero invalido, favor verificar")
+
+else:
+    for i in range(num, 0, -2):
+        print(i)
